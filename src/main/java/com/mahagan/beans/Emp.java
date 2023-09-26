@@ -4,7 +4,9 @@ public class Emp {
 private int id;  
 private String name;  
 private float salary;  
-private String designation;  
+private String designation;
+
+// these are getter and setter generated
   
 public int getId() {  
     return id;  
@@ -30,6 +32,8 @@ public String getDesignation() {
 public void setDesignation(String designation) {  
     this.designation = designation;  
 }
+
+//this is constructor
 
     public Emp(int id, String name, float salary, String designation) {
         this.id = id;
